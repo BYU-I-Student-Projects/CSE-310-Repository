@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
-import Dashboard from './pages/Dashboard';
-import AddLocation from './pages/AddLocation';
-import Locations from './pages/Locations';
-import WeatherDetails from './pages/WeatherDetails';
-import Profile from './pages/Profile';
-import Login from './pages/Login';
-import Register from './pages/Register';
+import Dashboard from '@/pages/Dashboard';
+import AddLocation from '@/pages/AddLocation';
+import Locations from '@/pages/Locations';
+import WeatherDetails from '@/pages/WeatherDetails';
+import Profile from '@/pages/Profile';
+import Login from '@/pages/Login';
+import Register from '@/pages/Register';
 
 // Loading component
 const LoadingSpinner = () => (
